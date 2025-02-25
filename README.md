@@ -4,8 +4,7 @@ This repository contains the source code for the paper Adversarial Sample-Based 
 
 ## Install
 Dependencies are managed by `conda/mamba`.  
-1. Required dependencies can be installed using the command `conda env create -f env.yml` and then run `conda activate bb_audit_dpsgd`.  
-2. The pre-training algorithm to craft worst-case initial model parameters are given in `craft_inital_params.ipynb`, but we also provide the pre-trained worst-case inital parameters we use under the `pretrained_models/` folder.
+Required dependencies can be installed using the command `conda env create -f env.yml` and then run `conda activate bb_audit_dpsgd`.  
 
 ## Training Models
 To train cnn models trained on the MNIST dataset with for auditing. You can use the pretrain.sh
